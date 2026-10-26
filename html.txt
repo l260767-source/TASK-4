@@ -1,0 +1,130 @@
+<html>
+<head>
+<title>Task 04 - Victoria's Journal</title>
+    <style>
+        body {
+            background-color: lightgray;
+            font-family: serif;
+        }
+
+        #container {
+            width: 650px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 15px;
+            border: 1px solid teal;
+        }
+
+        #header {
+            background-color: lightcyan;
+            border: 3px solid teal;
+            padding: 10px;
+            text-align: right;
+            margin-bottom: 15px;
+        }
+
+        #header h1 {
+            color: darkcyan;
+            margin: 0;
+        }
+
+        #header p {
+            color: teal;
+            margin: 5px 0 0 0;
+            font-style: italic;
+        }
+
+        #sidebar {
+            float: left;
+            width: 160px;
+            background-color: mediumaquamarine;
+            border: 4px solid darkcyan;
+            padding: 10px;
+        }
+
+        #sidebar h2 {
+            color: darkslategray;
+            margin-top: 0;
+        }
+
+        #sidebar ul {
+            padding-left: 20px;
+        }
+
+        #sidebar a {
+            color: white;
+            font-weight: bold;
+        }
+
+        #main {
+            float: right;
+            width: 440px;
+        }
+
+        .entry {
+            background-color: azure;
+            border: 3px solid powderblue;
+            padding: 10px;
+            margin-bottom: 15px;
+        }
+
+        .entry h2 {
+            margin-top: 0;
+        }
+
+        .date {
+            color: darkcyan;
+            font-weight: bold;
+        }
+
+        .entry-img {
+            float: right;
+            width: 120px;
+            margin-left: 10px;
+        }
+
+        .entry p {
+            color: gray;
+            font-size: 13px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+
+        <div id="header">
+            <h1>Victoria's Journal</h1>
+            <p>So fresh and so clean</p>
+        </div>
+
+        <div id="sidebar">
+            <h2>Friends</h2>
+            <ul>
+                <li><a href="#">190 Buddies</a></li>
+                <li><a href="#">Big Will</a></li>
+                <li><a href="#">Conan the Librarian</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+
+            <div class="entry">
+                <h2><span class="date">04/09/08:</span> Spatulas</h2>
+                <img src="spatula.jpg" alt="Spatula" class="entry-img">
+                <p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)</p>
+            </div>
+
+            <div class="entry">
+                <h2><span class="date">04/08/08:</span> Cookie Cupcakes</h2>
+                <img src="cupcakes.jpg" alt="Cookie Cupcakes" class="entry-img">
+                <p>My favorite cartoon character is Cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both worlds.</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
